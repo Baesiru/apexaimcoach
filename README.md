@@ -124,17 +124,28 @@ pip install -r requirements.txt
 
 ## ⚖️ 라이선스 (License)
 
-### 프로젝트 코드
-
-본 프로젝트의 소스 코드는 [MIT License](LICENSE) 하에 배포됩니다.
-
 ### 데이터셋
 
-본 프로젝트의 YOLO 모델 학습에는 아래의 데이터셋이 사용되었으며, 해당 데이터셋의 라이선스 조항을 준수합니다.
+본 프로젝트의 YOLO 모델 학습에는 Roboflow Universe에 공개된 아래의 데이터셋을 활용하였으며, 해당 데이터셋의 라이선스 조항을 준수합니다. 데이터셋을 공개해주신 원작자에게 감사를 표합니다.
 
-- **데이터셋 이름:** v1 Computer Vision Project
-- **제공자/원작자:** online resource 2
-- **출처 링크:** [https://universe.roboflow.com/online-resource-2/v1-jx7pl](https://universe.roboflow.com/online-resource-2/v1-jx7pl)
+- **데이터셋 제목:** [v1 Dataset](https://universe.roboflow.com/online-resource-2/v1-jx7pl)
+- **저작자:** online resource 2
+- **플랫폼:** Roboflow Universe
+- **공개 연도:** 2022
 - **라이선스:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
-This project utilizes a dataset licensed under CC BY 4.0. We extend our gratitude to the original creators for making their work publicly available.
+---
+**학술적 인용 (BibTeX Citation):**
+```bibtex
+@misc{v1-jx7pl_dataset,
+    title = { v1 Dataset },
+    type = { Open Source Dataset },
+    author = { online resource 2 },
+    howpublished = { \url{ https://universe.roboflow.com/online-resource-2/v1-jx7pl } },
+    url = { https://universe.roboflow.com/online-resource-2/v1-jx7pl },
+    journal = { Roboflow Universe },
+    publisher = { Roboflow },
+    year = { 2022 },
+    month = { dec },
+    note = { visited on 2024-05-22 },
+}
